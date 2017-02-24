@@ -1,3 +1,5 @@
+//esempio di modifica per GITHUB
+
 var moon;
 var bombs = [];
 var smallPoint, largePoint;
