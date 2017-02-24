@@ -1,3 +1,5 @@
+// Ho aggiunto questa stringa perchè non sapevo che altro aggiungere
+
 var moon;
 var bombs = [];
 var smallPoint, largePoint;
