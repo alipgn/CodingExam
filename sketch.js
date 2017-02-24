@@ -1,10 +1,7 @@
-//esempio di modifica per GITHUB
-
 var moon;
 var bombs = [];
 var smallPoint, largePoint;
-var s = second()
-var maxBombCount = 90;
+var s = second();
 var clicks = 0;
 
 //var skylineHeight = windowHeight/2-40;
@@ -25,20 +22,6 @@ moon = loadImage("assets/moon.png");
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
-
-function mouseClicked() {
-    if (bombs.length > maxBombCount) {
-
-        Background (190);
-        stroke(255);
-        fill(0, 0, 0);
-        rect(0, 0, windowWidth, windowHeight);
-        textSize(32);
-        fill(255);
-        text("Remember dresda", windowWidth / 3, windowHeight / 3);
-    }
-}
-
 
 function draw() {
     
@@ -122,6 +105,16 @@ image(moon,  width/6 + s, height/3 - s, 70, 70);
   text("Time",1335,50);
   textSize(18);
   text(s,1310,50);
+    
+if (bombs.length > 10) {
+        stroke(255);
+        fill(0, 0, 0);
+        rect(0, 0, windowWidth, windowHeight);
+        textSize(32);
+        fill(255);
+        text("Remember dresda", windowWidth / 3, windowHeight / 3);
+    }
+    
 }
 
 function mousePressed() {
