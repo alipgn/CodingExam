@@ -1,5 +1,3 @@
-// esempioa
-
 var moon;
 var bombs = [];
 var smallPoint, largePoint;
@@ -85,6 +83,7 @@ imageMode(CENTER);
    } else {
         fill(bombs[i].color);
         noStroke()
+        
       }
 
   }
@@ -108,13 +107,14 @@ image(moon,  width/6 + s, height/3 - s, 70, 70);
   textSize(18);
   text(s,1310,50);
     
-if (bombs.length > 10) {
-        stroke(255);
+if (bombs.length > 650) {
+        noStroke();
         fill(0, 0, 0);
         rect(0, 0, windowWidth, windowHeight);
         textSize(32);
-        fill(255);
-        text("Remember dresda", windowWidth / 3, windowHeight / 3);
+        fill(250);
+        textAlign(CENTER);
+        text("Remember dresda", windowWidth / 2, windowHeight / 2);
     }
     
 }
