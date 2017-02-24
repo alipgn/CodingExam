@@ -1,4 +1,4 @@
-// Ho aggiunto questa stringa perchè non sapevo che altro aggiungere. Dopo un semestre finalmente riusciamo a compicciare qualcosa!
+// esempio
 
 var moon;
 var bombs = [];
